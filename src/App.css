@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  color: white;
+}
+table{
+  padding: 4px 15px;
+  width: 70vw;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+th {
+  background-color:green;
+  border-left: 2px solid rgba(255, 255, 255, 0.4);
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+th, td {
+  width:150px;
+  text-align:center;
+  padding:5px;
+  border-left: 2px solid rgba(255, 255, 255, 0.4);
+ 
+}
+td{
+  /* border: 2px solid rgba(255, 255, 255, 0.522); */
+  border-collapse: collapse;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+.id{
+  border-left: 2px solid rgba(255, 255, 255, 0.4);
+  border-right: 0;
+}
+.un{
+  border-right: 2px solid rgba(255, 255, 255, 0.4);
+}
+.foot{
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  margin-top:25px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.251);
+  opacity: 0.6;
+  padding: 8px 0;
+}
+ 
